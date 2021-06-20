@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="index_style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html" class="hbtn">Home</a>Weather Data Visualization</h1>
+    </header>
+
+    <main class="container">
+        <section id="main-intro">
+            <section id="figure">
+            </section>
+            <p>The intention of this webpage is to allow users to seemlessly move from page to page to view multiple
+                data visualizations.
+                On the right of the page is a dropdown menu with all of the links. At the bottom of the page you can
+                preview the figures and click on their respective links to view a full sized figure. You can return to
+                the home page by clicking the home button in
+                the top left.
+            </p>
+        </section>
+
+        <aside id="dropdown_menu">
+            <ul>
+                <div class="dropdown">
+                    <a href="index.html" class="hbtn">Links</a>
+                    <div class="dropdown-content">
+                        <a href="vis1.html">City Lat vs Max Temp</a>
+                        <a href="vis2.html">City Lat vs Humidity</a>
+                        <a href="vis3.html">City Lat vs Cloudiness</a>
+                        <a href="vis4.html">City Lat vs Wind Speed</a>
+                        <a href="comp.html">Comparison</a>
+                        <a href="data.html">Data</a>
+                    </div>
+                </div>
+            </ul>
+        </aside>
+    </main>
+    <div class="box-set">
+        <a id="preview-1-link" href="vis1.html">City Latitude vs Max Temperature</a>
+        <a id="preview-2-link" href="vis2.html">City Latitude vs Humidity</a>
+        <a id="preview-3-link" href="vis3.html">City Latitude vs Cloudiness</a>
+        <a id="preview-4-link" href="vis4.html">City Latitude vs Wind Speed</a>
+        <img id="preview-1" src="../Resources/assets/images/Fig1.png">
+        <img id="preview-2" src="../Resources/assets/images/Fig2.png">
+        <img id="preview-3" src="../Resources/assets/images/Fig3.png">
+        <img id="preview-4" src="../Resources/assets/images/Fig4.png">
+    </div>
+</body>
+
+</html>

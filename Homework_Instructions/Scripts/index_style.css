@@ -1,0 +1,169 @@
+/* Body Format */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+/* Header */
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+/* Home button */
+.hbtn {
+  background-color: #3e678e;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #0011ff;
+}
+
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+#main-intro,
+#dropdown_menu
+{
+  float: left;
+}
+
+#figure {
+  position: relative;
+}
+
+#main-intro {
+  width: 70%;
+}
+
+/* Dropdown menu */
+#dropdown_menu {
+  width: 30%;
+}
+
+
+.btn {
+  background-color: #3e678e;
+  color: white;
+  padding: 30px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #3e678e;}
+
+
+/* Links/Preview Images */
+#preview-1-link{
+  position: fixed;
+  left: 20%;
+  bottom: 71%;
+}
+#preview-2-link{
+  position: fixed;
+  left: 45%;
+  bottom: 71%;
+}
+#preview-3-link{
+  position: fixed;
+  left: 20%;
+  bottom: 41%;
+}
+#preview-4-link{
+  position: fixed;
+  left: 45%;
+  bottom: 41%;
+}
+
+#preview-1 {
+  position: fixed;
+  width: 350px;
+  height: 200px;
+  left: 20%;
+  bottom: 50%;
+}
+
+#preview-2 {
+  position: fixed;
+  width: 350px;
+  height: 200px;
+  left: 45%;
+  bottom: 50%;
+}
+
+
+#preview-3 {
+  position: fixed;
+  width: 350px;
+  height: 200px;
+  left: 20%;
+  bottom: 20%;
+}
+
+
+#preview-4 {
+  position: fixed;
+  width: 350px;
+  height: 200px;
+  left: 45%;
+  bottom: 20%;
+}

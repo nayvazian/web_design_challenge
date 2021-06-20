@@ -1,0 +1,55 @@
+/* Body Format */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+/* Header */
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+/* Home button */
+.hbtn {
+  background-color: #3e678e;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+}
+
+.city-table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 3px solid #999999;
+}
+
+tr:nth-child(even) {
+  background-color: #cacaca;
+}
+
+td 
+{
+    border: 2px solid #999999;
+    text-align: center; 
+    vertical-align: middle;
+}
